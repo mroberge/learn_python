@@ -20,17 +20,20 @@ coders use every day.
             - Install & use the GitHub Desktop Application
             - or click on the 'Clone or Download' button
      * Explore the files in this project.
-     * Open module_0.py and run it.
+     * Open module_0.py and run it. (This will also run the tests.)
+     * Try to use the functions in module_0.py from the IPython console.
+            - after running module_0.py inside of IPython, type:
+            `>>> hello_world()`
+            - You can also list all of the functions stored in module_0 this way:
+            `>>> dir(module_0)`
+            - Learn more about the function hello_world():
+            `>>> help(hello_world()`
 
 1. A Simple Coding Exercise: module_1.py
 
-    In this module, you'll familiarize yourself with the concept of unit
-    testing and how these modules will work.
+    _In this module, you'll familiarize yourself with the concept of unit
+    testing and how these modules will work._
 
 2. Odd-Even Excercise: module_2.py
 
-    Create a function that returns only odd numbers.
-
-3. Population Pyramid: module_3.py
-
-    Create a series of functions that produce a population pyramid.
+    _Create a function that returns only odd numbers._
