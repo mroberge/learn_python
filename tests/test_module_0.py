@@ -12,20 +12,19 @@ from learn import module_0 as m0
 
 class TestModule0(unittest.TestCase):
 
-    def setUp(self):
-        pass
-
-    def tearDown(self):
-        pass
-
     def test_000_something(self):
-        print("test000")
-        assert True
+        # print("test000")
+        # The following test checks that the value 'True' is true.
+        # We expect this test should pass with no problems.
+        # More importantly, can you find where the results of this test get
+        # reported when you run the test?
+        self.assertTrue(True)
 
     def test_first_returns_true(self):
         expected = True
         actual = m0.hello_world()
-        self.assertEqual(expected, actual, msg="hello_world() did not return True.")
+        self.assertEqual(expected, actual, msg="hello_world() didn't return "
+                         "True.")
 
-
-
+if __name__ == '__main__':
+    unittest.main()
