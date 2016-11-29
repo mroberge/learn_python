@@ -33,17 +33,21 @@ coders use every day.
         * run test_module_0 from the IPython interpreter
         * run unittest from the command line:
 
-        `C:\Users\Google Drive\PythonWorkspace\learn_python>python -m unittest -v`
+        `C:\Users\x\Google Drive\PythonWorkspace\learn_python>python -m unittest -v`
 
         * run the setup file with the test option (setup.py is a file that gets used to create a package):
 
-        `C:\Users\Google Drive\PythonWorkspace\learn_python>python setup.py test`
+        `C:\Users\x\Google Drive\PythonWorkspace\learn_python>python setup.py test`
 
 2. A Simple Coding Exercise: module_1.py
 
     _In this module, you'll familiarize yourself with the concept of unit
     testing and how these modules will work._
 
+    * Switch branches to module_1 to get the instructions for this exercise.
+
 3. Odd-Even Excercise: module_2.py
 
     _Create a function that returns only odd numbers._
+
+    * Switch branches to module_2 to get the instructions for this exercise.
