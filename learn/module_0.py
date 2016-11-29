@@ -27,7 +27,7 @@ def hello_world():
     """
     You are reading the docstring for hello_world(). You can access this
     text by typing help(hello_world) in the python interpreter.
- 
+
     Print 'Hello World' to the screen.
 
     Args:
