@@ -7,7 +7,7 @@ by typing:  `python setup.py test
 """
 import unittest
 
-import module_0 as m0
+from learn import module_0 as m0
 
 
 class TestModule0(unittest.TestCase):
