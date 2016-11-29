@@ -33,12 +33,11 @@ coders use every day.
         * run test_module_0 from the IPython interpreter
         * run unittest from the command line:
 
-    `C:\Users\Google Drive\PythonWorkspace\learn_python>python -m unittest -v`
+        `C:\Users\Google Drive\PythonWorkspace\learn_python>python -m unittest -v`
 
-        * run the setup file with the test option (setup.py is a file that gets
-        used to create a package):
+        * run the setup file with the test option (setup.py is a file that gets used to create a package):
 
-    `C:\Users\Google Drive\PythonWorkspace\learn_python>python setup.py test`
+        `C:\Users\Google Drive\PythonWorkspace\learn_python>python setup.py test`
 
 2. A Simple Coding Exercise: module_1.py
 
