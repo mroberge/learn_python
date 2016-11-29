@@ -12,7 +12,7 @@ coders use every day.
 
 **How to proceed:**
 
-0. Getting Started.
+1. Getting Started.
 
     * Create your own GitHub account.
     * Fork this repository into your own GitHub account.
@@ -34,20 +34,20 @@ coders use every day.
 
         * run module_0 from the IPython interpreter
         * run test_module_0 from the IPython interpreter
-        * run unittest from the command line::
+        * run unittest from the command line:
 
-C:\Users\Google Drive\PythonWorkspace\learn_python>python -m unittest -v
+`C:\Users\Google Drive\PythonWorkspace\learn_python>python -m unittest -v`
 
         * run the setup file with the test option (setup.py is a file that
-gets used to create a package)::
+gets used to create a package):
 
-C:\Users\Google Drive\PythonWorkspace\learn_python>python setup.py test
+`C:\Users\Google Drive\PythonWorkspace\learn_python>python setup.py test`
 
-1. A Simple Coding Exercise: module_1.py
+2. A Simple Coding Exercise: module_1.py
 
     _In this module, you'll familiarize yourself with the concept of unit
     testing and how these modules will work._
 
-2. Odd-Even Excercise: module_2.py
+3. Odd-Even Excercise: module_2.py
 
     _Create a function that returns only odd numbers._
