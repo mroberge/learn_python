@@ -38,9 +38,11 @@ def hello_world():
     print("Hello World!")
     return True
 
+
 if __name__ == '__main__':
 
+    print('Inside of module_0.main()')
     import unittest
 
-    testsuite = unittest.TestLoader().discover('.')
-    unittest.TextTestRunner(verbosity=2).run(testsuite)
+    # run the test module that corresponds to this module.
+    unittest.main("tests.test_module_0", verbosity=2)
