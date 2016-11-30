@@ -30,6 +30,13 @@ coders use every day.
     * Then, you'll write your own test.
     * Make sure that all of the tests pass!
 
+    * Commit your changes as you make them. (Github Desktop makes this easy)
+    * Sync your local changes with your remote repo on Github (Sync button)
+    * Create a 'Pull Request' back to my learn_python repo. (You don't need
+       to wait until you are finished to do this. All of your commits will
+       show up in the pull request as soon as you commit, and we can chat
+       about your progress as you go.)
+
 3. Odd-Even Excercise: module_2.py
 
     _Create a function that returns only odd numbers._
