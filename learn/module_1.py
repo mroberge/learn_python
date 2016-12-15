@@ -53,9 +53,9 @@ def fix_me(name):
 
     Returns:
     --------
-        output: a string that says, 'hello, <name>!'
+        output: a string that says, 'Hello, <name>!'
     """
-    output = 'Fix me ' + str(name) + '!'
+    output = 'Hello, ' + str(name) + '!'
     return output
 
 
@@ -93,7 +93,22 @@ class TestModule1(unittest.TestCase):
 
     # Write a test that checks that fix_me returns a string.
     # def put_the_test_here!
-
+    def test_fix_me_returns_a_string(self):
+        """Check that fix_me() returns a string
+        """
+        some_str = 'string'
+        self.addTypeEqualityFunc(str, fix_me(some_str))
+        
+    def test_fix_me_returns_a_string_2(self):
+        """variation of the above test to see how they are different
+        """
+        some_str_2= 'string'
+        actual = fix_me(some_str_2)
+        self.assertIsInstance(actual, str)
+    #Both tests returned thae same errors when fix_me() contained:
+        #output = 'Hello, ' + str(name) + '!'
+        #output = 'Hello, ' + int(name) + '!'
+        #output = 'Hello, ' + (name) + '!' with integer values in tests
 
 if __name__ == '__main__':
 
@@ -103,3 +118,6 @@ if __name__ == '__main__':
     # all of the tests in this module, but none of the tests in any of the
     # other modules.
     unittest.main(module='module_1', verbosity=2)
+    
+    
+
